@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Blogs from "./pages/Blogs";
 import About from "./pages/About";
@@ -7,6 +7,7 @@ import "./App.css";
 // import PreLoader from "./components/PreLoader/PreLoader";
 
 const App: React.FC = () => {
+  
   // const [active, setActive] = useState<boolean>(true);
 
   // useEffect(() => {
@@ -17,13 +18,13 @@ const App: React.FC = () => {
 
   return (
     <>
-        <Router>
-          <Routes>
-            <Route path="/" Component={Blogs} />
-            <Route path="/about" Component={About} />
-            <Route path="/blogPage" Component={BlogPage} />
-          </Routes>
-        </Router>
+      <Router>
+        <Routes>
+          <Route path="/" Component={Blogs} />
+          <Route path="/about" Component={About} />
+          <Route path="/blogPage" Component={BlogPage} />
+        </Routes>
+      </Router>
     </>
   );
 };
