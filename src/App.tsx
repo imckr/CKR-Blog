@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from "react"
+import React from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Blogs from "./pages/Blogs";
 import About from "./pages/About";
@@ -7,13 +7,13 @@ import "./App.css";
 // import PreLoader from "./components/PreLoader/PreLoader";
 
 const App: React.FC = () => {
-  const [active, setActive] = useState<boolean>(true);
+  // const [active, setActive] = useState<boolean>(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setActive(false);
-    }, 5000);
-  });
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setActive(false);
+  //   }, 5000);
+  // });
 
   return (
     <>
