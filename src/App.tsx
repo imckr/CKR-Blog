@@ -4,7 +4,7 @@ import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import BlogPage from "./pages/BlogPage";
 import "./App.css";
-import PreLoader from "./components/PreLoader/PreLoader";
+// import PreLoader from "./components/PreLoader/PreLoader";
 
 const App: React.FC = () => {
   const [active, setActive] = useState<boolean>(true);
@@ -17,9 +17,6 @@ const App: React.FC = () => {
 
   return (
     <>
-      {active ? (
-        <PreLoader />
-      ) : (
         <Router>
           <Routes>
             <Route path="/" Component={Blogs} />
@@ -27,7 +24,6 @@ const App: React.FC = () => {
             <Route path="/blogPage" Component={BlogPage} />
           </Routes>
         </Router>
-      )}
     </>
   );
 };
