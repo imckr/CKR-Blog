@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "headline": "platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec",
+    "paragraph": "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti",
+    "date": "14/05/2024",
+    "image": "http://dummyimage.com/684x139.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 2,
+    "headline": "vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci",
+    "paragraph": "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
+    "date": "28/02/2024",
+    "image": "http://dummyimage.com/684x139.png/5fa2dd/ffffff"
+  },
+  {
+    "id": 3,
+    "headline": "in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla",
+    "paragraph": "justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna",
+    "date": "20/02/2024",
+    "image": "http://dummyimage.com/684x139.png/dddddd/000000"
+  },
+  {
+    "id": 4,
+    "headline": "morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est",
+    "paragraph": "ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non",
+    "date": "24/06/2024",
+    "image": "http://dummyimage.com/684x139.png/ff4444/ffffff"
+  }
+]
