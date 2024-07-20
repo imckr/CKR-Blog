@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Blogs from "./pages/Blogs";
 import About from "./pages/About";
 import BlogPage from "./pages/BlogPage";
@@ -20,13 +20,13 @@ const App: React.FC = () => {
       {active ? (
         <PreLoader />
       ) : (
-        <Router>
+        <BrowserRouter>
           <Routes>
             <Route path="/" Component={Blogs} />
             <Route path="/about" Component={About} />
             <Route path="/blogPage" Component={BlogPage} />
           </Routes>
-        </Router>
+        </BrowserRouter>
       )}
     </>
   );
